@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-test-radik-radik
+  description: test
+  annotations: 
+    github.com/project-slug: RadikSejfullinOrg/test-test-radik-radik
+    backstage.io/source-ref: "https://github.com/RadikSejfullinOrg/test-test-radik-radik"
+    backstage.io/techdocs-ref: url:https://github.com/RadikSejfullinOrg/test-test-radik-radik
+spec:
+  type: service
+  lifecycle: experimental
+  owner: radik.s@indriver.com
